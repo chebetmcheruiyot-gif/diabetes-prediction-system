@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    background: url('../images/index_bg.png') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+h1 {
+    margin-bottom: 30px;
+    color:white;
+    font-size: 50px;
+    font-style: italic;
+    transform: skewX(-10deg);   
+    display: inline-block;
+    
+
+}
+h2 {
+    margin-bottom: 30px;
+    color:white;
+    font-size: 20px;
+    font-style: italic;
+
+}
+
+.btn {
+    text-decoration: none;
+    background-color: #007BFF;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 18px;
+
+    font-style: italic;
+    transform: skewX(-15deg);   /* Makes it more slanted */
+    display: inline-block;      /* Required for skew */
+}
+
+
+.btn:hover {
+    background-color: #0056b3;
+}
